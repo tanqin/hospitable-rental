@@ -2,9 +2,12 @@
 import axios from "axios"
 import {Toast} from 'antd-mobile'
 
+// 基地址
+export const baseURL = 'https://api-haoke-web.itheima.net'
+
 /* 2.0 创建 axios 实例 */
 const instance = axios.create({
-    baseURL: 'https://api-haoke-web.itheima.net/'
+    baseURL
 })
 
 /* 3.0 请求拦截器 */
