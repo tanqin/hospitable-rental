@@ -1,18 +1,21 @@
 import React from 'react';
 import { Carousel } from 'antd-mobile';
-
+import axios from '../../../api/instance'
 export default class App extends React.Component {
     state = {
         data: ['1', '2', '3'],
         imgHeight: 176,
     }
     componentDidMount() {
+        axios.get('home/swiper').then((res) => {
+            console.log(res);
+        })
         // simulate img loading
-        setTimeout(() => {
-            this.setState({
-                data: ['AiyWuByWklrrUDlFignR', 'TekJlZRVCjLFexlOCuWn', 'IJOtIlfsYdTyaDTRVrLI'],
-            });
-        }, 100);
+        // setTimeout(() => {
+        //     this.setState({
+        //         data: ['AiyWuByWklrrUDlFignR', 'TekJlZRVCjLFexlOCuWn', 'IJOtIlfsYdTyaDTRVrLI'],
+        //     });
+        // }, 100);
     }
     render() {
         return (
