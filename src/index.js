@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
 import './assets/iconfont.css'
+import 'antd-mobile/dist/antd-mobile.css';  
 
 ReactDOM.render(
   <React.StrictMode>
