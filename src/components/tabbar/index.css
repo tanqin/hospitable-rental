@@ -1,0 +1,21 @@
+.tabbar-content {
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+}
+.tabbar-list{
+    display: flex;
+    height: 50px;
+    border-top: 1px solid #ccc;
+}
+.tabbar-list-item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tabbar-list-item .iconfont {}
+.tabbar-list-item .text {}
+.tabbar-item-active{
+    color:#21b97a
+}
