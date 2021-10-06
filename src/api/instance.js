@@ -4,7 +4,6 @@ import {Toast} from 'antd-mobile'
 
 // 基地址
 export const baseURL = process.env.REACT_APP_BASEURL
-console.log(process.env);
 /* 2.0 创建 axios 实例 */
 const instance = axios.create({
     baseURL
