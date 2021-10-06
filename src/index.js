@@ -7,8 +7,10 @@ import './assets/iconfont.css'
 import 'antd-mobile/dist/antd-mobile.css';  
 
 ReactDOM.render(
+  /* 去掉 React.StrictMode 则不会出现 createRef() 的报错 */
+  <React.StrictMode>
     <App />
-,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
