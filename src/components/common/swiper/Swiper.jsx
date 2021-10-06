@@ -8,7 +8,6 @@ export default class App extends React.Component {
     }
     componentDidMount() {
         axios.get('home/swiper').then((res) => {
-            // console.log(res);
             this.setState({
                 data: res.body
             })

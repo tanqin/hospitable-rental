@@ -1,0 +1,48 @@
+.group {
+    padding: 8px;
+    background-color: #fff;
+    .groupTitle {
+        display: flex;
+        justify-content: space-between;
+        padding: 3px;
+        color: #9f9f9f;
+      .groupTitleLeft {
+        
+      }
+  
+      .groupTitleRight {
+  
+      }
+    }
+  
+    .groupList {
+        display: flex;
+        flex-wrap: wrap;
+      .groupListItem {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 50%;
+          padding: 10px;
+          font-size: 14px;
+        .listItemLeft {
+            flex: 1;
+            .leftTop {
+              font-weight: bold;
+          }
+  
+          .leftBottom {
+  
+          }
+        }
+  
+        .listItemRight {
+            flex: 1;
+          img {
+            width: 80px;
+            height: 80px;
+          }
+        }
+      }
+    }
+  }
