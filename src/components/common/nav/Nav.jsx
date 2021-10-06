@@ -17,15 +17,15 @@ const Nav = () => {
             </div>
             <div className={style.navItem}>
                 <img src={user} alt="" />
-                <div className={style.text}>整租</div>
+                <div className={style.text}>合租</div>
             </div>
             <div className={style.navItem}>
                 <img src={map} alt="" />
-                <div className={style.text}>整租</div>
+                <div className={style.text}>地图找房</div>
             </div>
             <div className={style.navItem}>
                 <img src={rent} alt="" />
-                <div className={style.text}>整租</div>
+                <div className={style.text}>出租</div>
             </div>
         </div>
     );
